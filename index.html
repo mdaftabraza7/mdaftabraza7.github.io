@@ -176,7 +176,7 @@
 						// Once the animation is complete, reset the text and start over
 						setTimeout(() => {
 							typingAnimationElement.textContent = '';
-							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 2) % typingTexts.length]);
 						}, text.length * 200);
 						}
 
